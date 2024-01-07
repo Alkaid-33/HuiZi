@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>期末作业-Web交互界面设计及交互实现</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<link rel="stylesheet" type="text/css" href="assets/icomoon/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-5.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/chocolat/css/chocolat.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Work Sans
+:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+
+	<div id="overlayer">
+		<span class="loader">
+			<span class="loader-inner"></span>
+		</span>
+	</div>
+
+	<div class="nav nav-overlay">
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item active-nav"><a href="#">Home</a></li>
+				<li class="nav__list-item"><a href="https://baike.baidu.com/item/ACM%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B/3652262">ACM </a></li>
+				<li class="nav__list-item"><a href="https://blog.csdn.net/Ufimia?spm=1000.2115.3001.5343">我的博客</li>
+				<li class="nav__list-item"><a href="https://space.bilibili.com/508681280?spm_id_from=333.999.0.0">算法学习 </a></li>
+				<li class="nav__list-item"><a href="https://www.ccnu.edu.cn/">关于母校 </a></li>
+				<li class="nav__list-item"><a href="https://space.bilibili.com/484957349">关于作者 </a></li>
+				<li class="nav__list-item"><a href="contact.html">Contact me </a></li>
+			</ul>
+		</div>
+	</div>
+
+	<header id="header">
+		<div class="header-wrap" data-aos="fade">
+			<nav id="navbar">
+				<input id="menu-toggle" type="checkbox" />
+				<label class="menu-btn" for="menu-toggle">
+					<span></span>
+				</label>
+			</nav>
+
+		</div><!--header-wrap-->
+	</header>
+
+	<div id="billboard" class="jarallax">
+		<img src="images/banner2.jpg" alt="Banner" class="jarallax-img">
+		<div class="container">
+
+			<div class="banner-content">
+				<div class="banner-header">
+					<h2 class="display-1">华中师范大学<br /> 数字媒体技术</h2>
+					<p class="fs-4 fw-bold">人机交互基础课程期末作业个人展示</p>
+
+					<a href="contact.html" class="btn btn-dark btn-large">Get in touch</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div><!--billboard-->
+
+	
+
+	<section id="portfolio" class="overflow-hidden pb-5 mb-5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8">
+					<div class="section-header d-flex align-items-center mb-5">
+						<h2 class="display-5 m-0">个人编程类比赛获奖展示</h2>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="swiper-buttons">
+						<div class="swiper-button portfolio-carousel-prev">←</div>
+						<div class="swiper-button portfolio-carousel-next">→</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="portfolio-carousel swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/2022沈阳.png"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">银牌</span>
+										<h3 class="fs-4 fw-bold">ICPC区域赛-2022沈阳站</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/湖南湘潭银牌.jpg"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">银牌</span>
+										<h3 class="fs-4 fw-bold">CCPC省赛-2023湖南湘潭</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/2023济南.png"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">银牌</span>
+										<h3 class="fs-4 fw-bold">ICPC区域赛-2023济南站</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/湖北省赛金牌.jpg"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">金牌</span>
+										<h3 class="fs-4 fw-bold">CCPC省赛-2023湖北武汉</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/2023陕西(邀请赛).png"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">铜牌</span>
+										<h3 class="fs-4 fw-bold">ICPC邀请赛-2023陕西站</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/哈尔滨站铜牌.jpg"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">铜牌</span>
+										<h3 class="fs-4 fw-bold">CCPC国赛-2023哈尔滨站</h3>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="swiper-slide">
+								<figure class="portfolio-item">
+									<a href="single-portfolio.html"><img src="images/2023沈阳.png"
+											class="portfolio-image"></a>
+									<figcaption class="portfolio-title my-3">
+										<span class="text-gray text-uppercase fs-6">银牌</span>
+										<h3 class="fs-4 fw-bold">ICPC区域赛-2023沈阳站</h3>
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="pb-2 mb-2 pb-md-5 mb-md-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="milestone">
+						<h3>3</h3>
+						<p>Years of experience</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="milestone">
+						<h3>1200+</h3>
+						<p>problems been solved</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="milestone">
+						<h3>1944</h3>
+						<p>rating in codeforces</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="milestone">
+						<h3>12</h3>
+						<p>awards at provincial and above</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="post-grid" class="padding-large bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="section-header align-center mb-5">
+					<h2 class="display-5 m-0">一些网页小游戏</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="RusiaCube.html" class="post-link"><img src="images/俄罗斯方块.png" alt="post"></a>
+						<figcaption class="py-4">
+							<h3>
+								<a href="#" class="text-white">俄罗斯方块</a>
+							</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/贪吃蛇.jpg" alt="post"></a>
+						<figcaption class="py-4">
+							<h3>
+								<a href="#" class="text-white">贪吃蛇</a>
+							</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-4">
+					<figure class="post-item">
+						<a href="#" class="post-link"><img src="images/消消乐.png" alt="post"></a>
+						<figcaption class="py-4">
+							<h3>
+								<a href="#" class="text-white">消消乐</a>
+							</h3>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="footer-bottom" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-center text-md-end">
+                    <p>已经达到底部啦！</p>
+                    <a href = "#">HOME</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="assets/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/chocolat/js/chocolat.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
